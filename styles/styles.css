@@ -1,0 +1,51 @@
+/***
+      Nav
+            ***/
+.header__navigation__menu {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.header__navigation__menu li a {
+    padding: 16px;
+    color: pink;
+    text-decoration: none;
+    font-size: 1.8rem;
+  }
+  /*Alexis*/
+
+  .header__navigation__menu li:hover a {
+  color:pink;
+  transition: 0.25s ease;
+  padding:10px;
+  position:relative ;
+  z-index: 50000;
+  background:white;
+
+
+      }
+
+  .header__navigation__menu li a:hover{
+    color:blue;
+
+  }
+  .header__navigation__menu a{
+  display:block;
+
+  }
+
+
+
+  .header__navigation__menu li ul{
+    position: absolute;
+    list-style: none;
+    padding:0;
+
+
+  }
+
+
+  /**/
